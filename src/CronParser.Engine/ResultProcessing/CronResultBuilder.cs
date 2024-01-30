@@ -46,7 +46,7 @@ namespace CronParser.Engine.ResultProcessing
             if (_splitInput.Length != EXPECTED_INPUT_ELEMENTS)
             {
                 throw new CronParseException(
-                    $"Input string {input} has {_splitInput.Length}! Expected element count is: {EXPECTED_INPUT_ELEMENTS}");
+                    $"Input string {input} has {_splitInput.Length} elements! Expected element count is: {EXPECTED_INPUT_ELEMENTS}");
             }
 
             return this;

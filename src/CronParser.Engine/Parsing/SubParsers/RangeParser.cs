@@ -43,13 +43,13 @@ namespace CronParser.Engine.Parsing.SubParsers
                 if (min < minValue)
                 {
                     throw new CronParseException(
-                        $"Value of lower range specifier ({min} is lower than min allowed value of {minValue}");
+                        $"Value of lower range specifier ({min}) is lower than min allowed value of {minValue})");
                 }
 
                 if (max > maxValue)
                 {
                     throw new CronParseException(
-                        $"Value of upper range specifier ({max}) exceeds max allowed value of {maxValue}");
+                        $"Value of upper range specifier ({max}) exceeds max allowed value of {maxValue})");
                 }
 
                 if (max <= min)

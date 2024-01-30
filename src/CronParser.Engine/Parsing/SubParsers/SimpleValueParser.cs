@@ -39,13 +39,13 @@ namespace CronParser.Engine.Parsing.SubParsers
             if (parsedValue < minValue)
             {
                 throw new CronParseException(
-                    $"Simple value ({parsedValue} is lower than min allowed value of {minValue}");
+                    $"Simple value ({parsedValue}) is lower than min allowed value of {minValue}");
             }
         
             if (parsedValue > maxValue)
             {
                 throw new CronParseException(
-                    $"Simple value ({parsedValue} exceeds max allowed value of {maxValue}");
+                    $"Simple value ({parsedValue}) exceeds max allowed value of {maxValue}");
             }
 
             return new SimpleCronValue(SimpleCronValueType.NUMBER, parsedValue);

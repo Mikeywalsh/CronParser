@@ -39,13 +39,13 @@ namespace CronParser.Engine.Parsing.SubParsers
             if (parsedStepValue < minValue)
             {
                 throw new CronParseException(
-                    $"Step value ({parsedStepValue} is lower than min allowed value of {minValue}");
+                    $"Step value ({parsedStepValue}) is lower than min allowed value of {minValue}");
             }
 
             if (parsedStepValue > maxValue)
             {
                 throw new CronParseException(
-                    $"Value of step value ({parsedStepValue} exceeds max allowed value of {maxValue}");
+                    $"Value of step value ({parsedStepValue}) exceeds max allowed value of {maxValue}");
             }
 
             stepValue = parsedStepValue;
