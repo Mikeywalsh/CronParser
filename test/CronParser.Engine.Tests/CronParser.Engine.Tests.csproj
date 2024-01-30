@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>CronParser.Engine.Tests</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+      <PackageReference Include="NSubstitute" Version="5.1.0" />
+      <PackageReference Include="xunit" Version="2.6.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CronParser.Engine\CronParser.Engine.csproj" />
+    </ItemGroup>
+
+</Project>

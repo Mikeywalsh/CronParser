@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CronParser.Runner\CronParser.Runner.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+        <PackageReference Include="xunit" Version="2.6.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="xunit.core, Version=2.6.6.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c">
+        <HintPath>C:\Users\Michael\.nuget\packages\xunit.extensibility.core\2.6.6\lib\netstandard1.1\xunit.core.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>

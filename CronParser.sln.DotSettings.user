@@ -1,0 +1,14 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d604763e_002D0684_002D41cf_002Db3f4_002Dba19dd5bcc79/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TryGetList_CorrectlyParsesList" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::D5B742C7-B6EC-4056-BD16-40420CB7BD56::net6.0::CronParser.Tests.SubParsers.ListParserTests.TryGetList_CorrectlyParsesList&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::D5B742C7-B6EC-4056-BD16-40420CB7BD56::net6.0::CronParser.Tests.SubParsers.ListParserTests.TryGetList_ReturnsFalse_WhenNoListPresent&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::D5B742C7-B6EC-4056-BD16-40420CB7BD56::net6.0::CronParser.Tests.SubParsers.ListParserTests.TryGetList_ThrowsException_WhenInputDataIsInvalid&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::D5B742C7-B6EC-4056-BD16-40420CB7BD56::net6.0::CronParser.Tests.SubParsers.RangeParserTests&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::D5B742C7-B6EC-4056-BD16-40420CB7BD56::net6.0::CronParser.Tests.SubParsers.StepParserTests&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;Project Location="D:\Programming\CronParser\CronParser.Tests" Presentation="&amp;lt;CronParser.Tests&amp;gt;" /&gt;&#xD;
+    &lt;ProjectFile&gt;003AE1C1-A24A-4506-96A9-83EF6FE13BEF/f:CronParserIntegrationTests.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

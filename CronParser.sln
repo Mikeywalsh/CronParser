@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronParser.Engine", "src\CronParser.Engine\CronParser.Engine.csproj", "{7958DE57-3465-4B8F-B263-860C6C06A2FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronParser.Engine.Tests", "test\CronParser.Engine.Tests\CronParser.Engine.Tests.csproj", "{D5B742C7-B6EC-4056-BD16-40420CB7BD56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronParser.Runner", "src\CronParser.Runner\CronParser.Runner.csproj", "{7F6FA208-B0BB-4A11-8639-945EB801BAEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{80FD32AB-C2D0-4C20-AA0F-143B0547C2AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7DDCDEFE-7B62-4A65-9B07-B58C6A26DE98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronParser.Engine.IntegrationTests", "test\CronParser.Engine.IntegrationTests\CronParser.Engine.IntegrationTests.csproj", "{003AE1C1-A24A-4506-96A9-83EF6FE13BEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7958DE57-3465-4B8F-B263-860C6C06A2FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7958DE57-3465-4B8F-B263-860C6C06A2FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7958DE57-3465-4B8F-B263-860C6C06A2FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7958DE57-3465-4B8F-B263-860C6C06A2FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5B742C7-B6EC-4056-BD16-40420CB7BD56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B742C7-B6EC-4056-BD16-40420CB7BD56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B742C7-B6EC-4056-BD16-40420CB7BD56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B742C7-B6EC-4056-BD16-40420CB7BD56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6FA208-B0BB-4A11-8639-945EB801BAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6FA208-B0BB-4A11-8639-945EB801BAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6FA208-B0BB-4A11-8639-945EB801BAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6FA208-B0BB-4A11-8639-945EB801BAEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{003AE1C1-A24A-4506-96A9-83EF6FE13BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003AE1C1-A24A-4506-96A9-83EF6FE13BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003AE1C1-A24A-4506-96A9-83EF6FE13BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003AE1C1-A24A-4506-96A9-83EF6FE13BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7958DE57-3465-4B8F-B263-860C6C06A2FB} = {80FD32AB-C2D0-4C20-AA0F-143B0547C2AE}
+		{7F6FA208-B0BB-4A11-8639-945EB801BAEB} = {80FD32AB-C2D0-4C20-AA0F-143B0547C2AE}
+		{D5B742C7-B6EC-4056-BD16-40420CB7BD56} = {7DDCDEFE-7B62-4A65-9B07-B58C6A26DE98}
+		{003AE1C1-A24A-4506-96A9-83EF6FE13BEF} = {7DDCDEFE-7B62-4A65-9B07-B58C6A26DE98}
+	EndGlobalSection
+EndGlobal
